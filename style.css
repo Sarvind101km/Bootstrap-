@@ -1,0 +1,154 @@
+body{
+    background:black;
+    padding:0;
+    margin:0;
+
+}
+.toparea{
+    background: #AB524D;
+    padding:16px 0;
+    color:white;
+    text-align: center;
+}
+.logoarea{
+    background: #F2C38B;
+    padding:46px 0;
+}
+.logoarea img{
+    height:100px;
+}
+.logoarea h1{
+    color:#74353F;
+    text-align: center;
+    text-shadow: 2px 6px 8px rgb(87, 80, 80);
+}
+.parea{
+    background: white;
+    padding:50px 0;
+    text-align: center;
+}
+.fullwidth{
+    width:100%;
+}
+.parea p{
+    text-align: justify;
+}
+.parea p:last-child{
+    text-align: right;
+}
+.boxarea{
+background:#F3EEEA;
+padding:50px 0;
+margin:50px 0;
+text-align:center;
+background-image: url('library.jpg');
+background-size: auto;
+opacity:0.6;
+}
+.boxarea img{
+    width:100%;                             
+}
+.boxarea img:first-child{
+    width:100px;                                  
+}
+.box{
+    background:white;
+    margin: 20px 20px;
+    padding:35px 0;
+    border: solid 2px grey;
+}
+.box img{
+    margin:15px 0;
+    transition:all 2s;
+}
+.box img:nth-child(2){
+ border-radius: 50%;
+}
+.box img:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.boxarea p{
+    background-color: white;
+    padding:15px;
+    margin-top: 50px;
+    height:62px;                             
+}
+.alumini{
+    background-image: url('ss.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding:10% 40%;
+}
+.footer{
+    background: black;
+    padding: 20px 0;
+    list-style-type: none;
+}
+.footer h5{
+    border-left: solid 3px white;
+    color:white;
+    padding:5px;
+}
+.f ul li{
+    list-style-type: none;
+}
+.f1{
+    color:#f2c38b;
+    list-style-type: none;
+}
+.f1 a:link {
+ text-decoration: none;
+ color:#A03122;
+}   
+.f1 a:visited {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+   
+}
+.f1 a:hover {
+    text-decoration: none;
+    color: orange;
+    background-color: transparent;
+   
+}
+.f2{
+    color:#A03122;
+}
+.f2 ul li{
+    position: relative;
+    right: 50px;
+}
+.f2 ul li:hover{
+    transform: scale(1);
+    position:relative;
+    left:2px;
+    cursor: pointer;
+}
+.f3{
+    color:#A03122;
+}
+.f4{
+    color:#A03122;
+}
+.f4 ul li{
+    position: relative;
+    right: 50px;
+}
+.f4 ul li:hover{
+    transform: scale(1);
+    position:relative;
+    left:2px;
+    cursor: pointer;
+}
+.horizontal{
+    background-image: linear-gradient(to right,transparent,#DBDBDB,transparent);
+    height: 1px;
+    width: 100%;
+    
+}
+.footer2{
+color:white;
+text-align: center;
+}

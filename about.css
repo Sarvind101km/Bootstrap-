@@ -1,0 +1,113 @@
+body{
+    background:white;
+    padding:0;
+    margin:0;
+
+}
+.toparea{
+    background: #AB524D;
+    padding:16px 0;
+    color:white;
+    text-align: center;
+}
+.logoarea{
+    background: #F2C38B;
+    padding:46px 0;
+}
+.logoarea img{
+    height:100px;
+}
+.logoarea h1{
+    color:#74353F;
+    text-align: center;
+    text-shadow: 2px 6px 8px rgb(87, 80, 80);
+}
+
+.about{
+    text-align: center;
+}
+.loc h4{
+    padding: 0 125px 0 120px;
+}
+.loc p{
+    padding: 0 125px 0 120px;
+}
+.mid{
+    padding: 10px 125px 50px 120px;
+}
+.f{
+    padding: 0 125px 0 120px;
+}
+
+.footer{
+    background: black;
+    padding: 20px 0;
+    list-style-type: none;
+}
+.footer h5{
+    border-left: solid 3px white;
+    color:white;
+    padding:5px;
+}
+.f ul li{
+    list-style-type: none;
+}
+.f1{
+    color:#f2c38b;
+    list-style-type: none;
+}
+.f1 a:link {
+ text-decoration: none;
+ color:#A03122;
+}   
+.f1 a:visited {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+   
+}
+.f1 a:hover {
+    text-decoration: none;
+    color: orange;
+    background-color: transparent;
+   
+}
+.f2{
+    color:#A03122;
+}
+.f2 ul li{
+    position: relative;
+    right: 50px;
+}
+.f2 ul li:hover{
+    transform: scale(1);
+    position:relative;
+    left:2px;
+    cursor: pointer;
+}
+.f3{
+    color:#A03122;
+}
+.f4{
+    color:#A03122;
+}
+.f4 ul li{
+    position: relative;
+    right: 50px;
+}
+.f4 ul li:hover{
+    transform: scale(1);
+    position:relative;
+    left:2px;
+    cursor: pointer;
+}
+.horizontal{
+    background-image: linear-gradient(to right,transparent,#DBDBDB,transparent);
+    height: 1px;
+    width: 100%;
+    
+}
+.footer2{
+color:white;
+text-align: center;
+}

@@ -1,0 +1,24 @@
+.faculty{
+    background-color: red;
+    text-align: center;
+}
+.lectures{
+    background-color: lightblue;
+    text-align: center;
+    color:#B65651;
+    font-size: 25px;
+}
+hr:first-child{
+    position: relative;
+    right:310px ;
+    top:34px;
+    background: #B65651;
+    width:450px;
+}
+hr:last-child{
+    position: relative;
+    left:310px ;
+    bottom:32px;
+    background: #B65651;
+    width:450px;
+}
